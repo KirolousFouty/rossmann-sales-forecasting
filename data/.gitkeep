@@ -1,0 +1,6 @@
+# This directory contains the Rossmann dataset files:
+# - train.csv
+# - test.csv
+# - store.csv
+#
+# Download from: https://www.kaggle.com/c/rossmann-store-sales/data
