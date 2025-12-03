@@ -109,11 +109,15 @@ venv.bak/
 data/*.csv
 !data/.gitkeep
 
-# Output files
-output/
-*.joblib
-*.pkl
-*.pickle
+# Output files - exclude large/regenerable files, keep plots and reports
+output/*.joblib
+output/*.pkl
+output/*.pickle
+output/submission.csv
+
+# Keep plots and reports for README display
+!output/plots/
+!output/evaluation_report.txt
 
 # Logs
 *.log
