@@ -517,17 +517,3 @@ evaluator = ModelEvaluator()
 evaluator.evaluate_model("XGBoost", y_train, y_pred_train, y_val, y_pred_val)
 evaluator.print_comparison_table()
 ```
-
----
-
-## 8. Acknowledgments
-
-- **Data Source**: [Rossmann Store Sales Kaggle Competition](https://www.kaggle.com/c/rossmann-store-sales)
-- **Libraries**: scikit-learn, XGBoost, LightGBM, pandas, numpy
-- **Inspiration**: Kaggle competition solutions and discussions
-
----
-
-## License
-
-MIT License
